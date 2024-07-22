@@ -1,0 +1,1 @@
+# SOLID-Wzorce-Projektowe-.NET
