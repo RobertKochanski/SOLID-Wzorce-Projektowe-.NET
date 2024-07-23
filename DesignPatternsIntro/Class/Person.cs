@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DesignPatternsIntro
+﻿namespace DesignPatternsIntro.Class
 {
-    internal class Person //(string name)  possible way to create contructor since .NET 8
+    internal class Person
+    //(string name)  possible way to create contructor since .NET 8
     {
         public string FirstName;
         public string LastName;
@@ -15,6 +10,11 @@ namespace DesignPatternsIntro
         {
             FirstName = firstname;
             LastName = lastname;
+        }
+
+        public void SayHi()
+        {
+            Console.WriteLine($"Hi, my name is {FirstName}");
         }
     }
 }

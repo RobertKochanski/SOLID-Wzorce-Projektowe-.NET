@@ -1,13 +1,17 @@
-﻿namespace DesignPatternsIntro
+﻿using DesignPatternsIntro.Abstraction;
+using DesignPatternsIntro.Encapsulation.Inheritance;
+using DesignPatternsIntro.Hermetization;
+using DesignPatternsIntro.Interface;
+
+namespace DesignPatternsIntro
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Person person = new Person("first", "last");
+            EmailSender emailSender = new EmailSender();
 
-            Console.WriteLine(person.FirstName);
-            Console.WriteLine(person.LastName);
+            emailSender.SendEmail("to@email.com", "title", "body");
         }
     }
 }
