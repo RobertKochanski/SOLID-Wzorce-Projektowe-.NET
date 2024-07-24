@@ -1,7 +1,4 @@
 ﻿using DesignPatternsIntro.Abstraction;
-using DesignPatternsIntro.Encapsulation.Inheritance;
-using DesignPatternsIntro.Hermetization;
-using DesignPatternsIntro.Interface;
 
 namespace DesignPatternsIntro
 {
