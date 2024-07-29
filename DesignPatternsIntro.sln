@@ -21,13 +21,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intro", "Intro\Intro.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "CreationalDesignPatterns\Builder\Builder.csproj", "{F617B184-EACE-4DCC-B52B-345844414CE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "CreationalDesignPatterns\Factory\Factory.csproj", "{976A0457-20CA-4A62-8FAF-3968D96363CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory", "CreationalDesignPatterns\Factory\Factory.csproj", "{976A0457-20CA-4A62-8FAF-3968D96363CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "CreationalDesignPatterns\AbstractFactory\AbstractFactory.csproj", "{5D4F7ACB-D42F-4C11-89EC-15355FD0D153}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "CreationalDesignPatterns\AbstractFactory\AbstractFactory.csproj", "{5D4F7ACB-D42F-4C11-89EC-15355FD0D153}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "CreationalDesignPatterns\Prototype\Prototype.csproj", "{C620D478-A467-46FA-974F-F85DA0714514}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "CreationalDesignPatterns\Prototype\Prototype.csproj", "{C620D478-A467-46FA-974F-F85DA0714514}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "CreationalDesignPatterns\Singleton\Singleton.csproj", "{93999342-33A4-4780-A2CC-A8EA4FE4058C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "CreationalDesignPatterns\Singleton\Singleton.csproj", "{93999342-33A4-4780-A2CC-A8EA4FE4058C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BehavioralDesignPatterns", "BehavioralDesignPatterns", "{D630C5F6-D71A-4468-9476-9CA9083174FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
