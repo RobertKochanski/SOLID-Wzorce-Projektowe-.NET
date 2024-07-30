@@ -4,7 +4,14 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var strategy = new CarStrategy();
+
+            var map = new Map(strategy);
+
+            Coordinate start = new Coordinate();
+            Coordinate end = new Coordinate();
+
+            map.CreateRoute(start, end);
         }
     }
 }
