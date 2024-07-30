@@ -4,7 +4,14 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Button submitButton = new Button();
+            Checkbox clientType = new Checkbox();
+
+            new RegisterClientView(clientType, submitButton);
+
+            submitButton.Click();
+
+            clientType.Select();
         }
     }
 }
