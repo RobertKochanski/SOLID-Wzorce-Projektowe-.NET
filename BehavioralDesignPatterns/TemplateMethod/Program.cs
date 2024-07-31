@@ -4,7 +4,20 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var pdf = new PdfGenerator();
+            var csv = new CsvGenerator();
+            var exc = new ExcelGenerator();
+
+
+            Console.WriteLine("### PDF ###");
+            pdf.GenerateReport();
+
+            Console.WriteLine("### CSV ###");
+            csv.GenerateReport();
+
+            Console.WriteLine("### EXCEL ###");
+            exc.GenerateReport();
+
         }
     }
 }

@@ -1,0 +1,2 @@
+# Template Method (Metoda szablonowa) -
+### Behawioralny wzorzec projektowy definiuj¹cy szkielet algorytmu w klasie bazowej, jednoczeœnie pozwalaj¹cy podklasom nadpisaæ konkretne etapy tego algorytmu bez koniecznoœci zmiany jego struktury.
