@@ -1,0 +1,2 @@
+# Decorator (Dekorator) - 
+### Strukturalny wzorzec projektowy, którego celem jest umo¿liwienie rozszerzenia zachowania istniej¹cych obiektów, poprzez opakowanie je w specjalnych obiektach, które bêd¹ zawieraæ dane zachowania
